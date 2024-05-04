@@ -9,7 +9,8 @@ from tkinter import scrolledtext
 from bardapi import BardCookies
 cookie_dict = {
     "__Secure-1PSID": "<YOUR_ACTUAL_SECURE_1PSID_VALUE>",
-"__Secure-1PSIDCC": "<YOUR_ACTUAL_SECURE_1PSIDCC_VALUE>"
+"__Secure-1PSIDCC": "<YOUR_ACTUAL_SECURE_1PSIDCC_VALUE>",
+    "__Secure-1PSIDTS": "<YOUR_ACTUAL_SECURE_1PSIDTS_VALUE>"
 }
 
 bard = BardCookies(cookie_dict=cookie_dict)
